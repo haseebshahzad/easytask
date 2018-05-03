@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+
+    <ion-title>
+      Hom\e page
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+	<div class="" *ngIf="indexCount == 1">
+		Welcome worker
+		<button ion-button>Logout</button>
+	<ion-content padding *ngIf="indexCount == 2">
+		Welcome worker provider
+		<button ion-button color="secondary">Logout</button>
+	</ion-content>
+	</div>
+</ion-content>

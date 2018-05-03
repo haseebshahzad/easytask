@@ -1,0 +1,28 @@
+<ion-content padding>
+
+	<img src="assets/imgs/logoz.png" alt="logo">
+	<ion-list>
+
+	  <ion-item>
+	    <ion-label floating>Username</ion-label>
+	    <ion-input [(ngModel)]="email" type="text"></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label floating>Password</ion-label>
+	    <ion-input  [(ngModel)]="pass" type="password"></ion-input>
+	  </ion-item>
+	</ion-list>
+
+	<div padding>
+	  <button ion-button block class="btn-login" (click)="login()">LOG IN</button>
+	  <img src="assets/imgs/facebook-sign-in.png" alt="facebook login">
+	  <button (click)="signup()" ion-button color="dark" outline block> <ion-icon ios="ios-create" md="md-create" class="c-acc"></ion-icon> CREATE NEW ACCOUNT</button>
+	  <button ion-button block class="btn-login" (click)="login()">Back </button>
+	</div>
+</ion-content>
+<ion-footer>
+  <ion-toolbar class="text-center">
+    <a href="#">FORGOT YOUR PASSWORD</a>
+  </ion-toolbar>
+</ion-footer>

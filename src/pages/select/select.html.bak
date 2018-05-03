@@ -1,0 +1,11 @@
+<ion-content padding>
+
+	<img src="assets/imgs/logoz.png" alt="logo">
+
+	<div padding>
+	  <button ion-button block class="btn-login" (click)="goLogin()">Worker</button>
+	  <button ion-button block class="btn-login" (click)="goLogin()">Work  provider</button>
+	  
+	  <button (click)="signup()" ion-button color="dark" outline block> <ion-icon ios="ios-create" md="md-create" class="c-acc"></ion-icon> CREATE NEW ACCOUNT</button>
+	</div>
+</ion-content>

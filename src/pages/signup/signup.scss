@@ -1,0 +1,37 @@
+.searchbar-md-cancel ,.searchbar-ios-cancel ,.searchbar-clear-icon  ,.searchbar-search-icon {
+		display:none !important;
+	}
+	.searchbar-md{
+		padding:0px;
+	}
+	.searchbar-input{
+		height: 60px !important;
+    	border-radius: 4px !important;
+    	background-color: #fff !important;
+    	color: #000 !important;
+    	margin-bottom: 15px;
+    	display: block;
+    	width: 100% !important;
+ 		margin: 0px 0px  !important;	
+ 		line-height:60px !important;
+ 		font-size: 16px !important;
+ 		padding: 0px 14px !important;
+ 		box-shadow:0px 0px !important;
+ 		border:2px solid #ddd;
+	}
+	.places_wraper{
+		margin-top:9px;
+	}
+	.ngfor{
+		color:#fff;
+		padding:4px 6px;
+		background:#0088cc;
+		margin:0 auto;
+		margin-bottom:2px;
+		border-radius:2px;
+		position:relative;
+	    cursor: pointer;
+	}
+	.ngfor:hover , .ngfor:active , .ngfor:visited{
+		background:#000;
+	}

@@ -1,0 +1,51 @@
+
+<ion-content padding>
+
+<img src="assets/imgs/logoz.png" alt="logo">
+<ion-list>
+	<ion-item>
+		<ion-label>Role</ion-label>
+		<ion-select [(ngModel)]="role">
+			<ion-option value="1">Worker</ion-option>
+			<ion-option value="2">workProvider</ion-option>
+		</ion-select>
+	</ion-item>
+  <ion-item>
+    <ion-label floating>Your name</ion-label>
+    <ion-input  [(ngModel)]="name" type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Phone Number</ion-label>
+    <ion-input  [(ngModel)]="phone" type="number"></ion-input>
+  </ion-item>
+  <!--
+  <ion-item>
+    	<ion-searchbar [(ngModel)]="liveIn" (ionInput)="updateSearchResults()" type="text" placeholder="Live In"></ion-searchbar>
+  </ion-item>
+  -->
+  <div class="places_wraper">
+	<div class="ngfor" *ngFor="let text of autocompleteItems" (click)="selectplace(text.description)">
+		{{text.description}}  
+		{{text.place_id}}
+	</div>
+</div><!---->
+  <ion-item>
+    <ion-label  floating>Your email</ion-label>
+    <ion-input [(ngModel)]="email" type="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Your password</ion-label>
+    <ion-input [(ngModel)]="pass" type="password"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Confirm password</ion-label>
+    <ion-input [(ngModel)]="c_pass" type="password"></ion-input>
+  </ion-item>
+</ion-list>
+
+<div padding>
+  <button (click)="register()" ion-button block class="btn-login">CREATE AN ACCOUNT</button>
+</div>
+
+
+</ion-content>
