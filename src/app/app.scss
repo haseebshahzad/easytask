@@ -20,6 +20,18 @@ $control-back:#0088cc;
     padding: 0px 2px;
     margin-right: 5px;
 }
+ion-content.c-bg {
+    background: url(../assets/imgs/appbg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.butnz-list {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+}
 .btn-login {
     border-radius: 0px;
     margin-bottom: 8px;
@@ -31,4 +43,23 @@ $control-back:#0088cc;
     text-decoration: none;
     color: #2d2d2d;
     font-weight: 500;
+}
+ul.btn-lst li { 
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+}
+ul.btn-lst {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+ul.btn-lst li button ion-icon.icon {
+    color: #73af12;
+    background: #ededed;
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    text-align: center;
+    height: 25px;
 }

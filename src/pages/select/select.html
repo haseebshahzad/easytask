@@ -1,11 +1,12 @@
-<ion-content padding>
+<ion-content padding class="c-bg">
 
-	<img src="assets/imgs/logoz.png" alt="logo">
+	<!--<img src="assets/imgs/logoz.png" alt="logo">-->
 
-	<div padding>
-	  <button ion-button block class="btn-login" (click)="goLogin(1)">Worker</button>
-	  <button ion-button block class="btn-login" (click)="goLogin(2)">Work  provider</button>
-	  
-	  <button (click)="signup()" ion-button color="dark" outline block> <ion-icon ios="ios-create" md="md-create" class="c-acc"></ion-icon> CREATE NEW ACCOUNT</button>
+	<div padding class="butnz-list">
+	  <ul class="btn-lst">
+		<li><button ion-button block class="btn-login" (click)="goLogin(1)"><ion-icon ios="ios-person" md="md-person"></ion-icon></button></li>
+		<li><button ion-button block class="btn-login" (click)="goLogin(2)"><ion-icon ios="ios-people" md="md-people"></ion-icon></button></li>
+		<li><button (click)="signup()" ion-button color="dark" outline block>   <ion-icon ios="ios-key" md="md-key"></ion-icon></button></li>
+	  </ul>
 	</div>
 </ion-content>
