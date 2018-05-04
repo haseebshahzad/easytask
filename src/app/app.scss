@@ -31,11 +31,7 @@ ion-content.c-bg {
     bottom: 60px;
     left: 0;
     right: 0;
-}
-.btn-login {
-    border-radius: 0px;
-    margin-bottom: 8px;
-}
+} 
 .text-center {
     text-align: center;
 }
@@ -63,7 +59,9 @@ ul.btn-lst li button ion-icon.icon {
     text-align: center;
     height: 25px;
 }
-.button-md { 
+.btn-login { 
     color: #fff;
     background-color: #46871e; 
+    border-radius: 0px;
+    margin-bottom: 8px;
 }
