@@ -25715,7 +25715,7 @@ ion-content.c-bg {
 
 ul.btn-lst li {
   display: inline-block;
-  margin: 0 auto;
+  margin: 10px;
   float: none;
 }
 
